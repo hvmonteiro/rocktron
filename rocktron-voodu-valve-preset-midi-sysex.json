@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rocktron Voodu Valve Preset",
+  "type": "object",
+
+  "properties": {
+    "name": {
+      "type": "string",
+      "maxLength": 11,
+      "description": "Preset name (UTF‑16‑LE on device, plain string here)."
+    },
+
+    "parameters": {
+      "type": "object",
+      "description": "All 0x00–0x7F parameter values.",
+      "patternProperties": {
+        "^[0-7][0-9A-F]$": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 127,
+          "description": "Parameter value (0–127)."
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "effects": {
+      "type": "array",
+      "description": "Effect block parameter table (8‑byte structures).",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 255,
+            "description": "Effect parameter ID."
+          },
+          "value": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 127,
+            "description": "Parameter value."
+          },
+          "enabled": {
+            "type": "boolean",
+            "description": "Effect block enable flag."
+          }
+        },
+        "required": ["id", "value", "enabled"],
+        "additionalProperties": false
+      }
+    },
+
+    "controllers": {
+      "type": "array",
+      "description": "MIDI controller assignment table.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sourceCC": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 127,
+            "description": "Incoming MIDI CC number."
+          },
+          "targetParameter": {
+            "type": "string",
+            "pattern": "^[0-7][0-9A-F]$",
+            "description": "Parameter ID affected by this controller."
+          },
+          "min": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 127
+          },
+          "max": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 127
+          }
+        },
+        "required": ["sourceCC", "targetParameter", "min", "max"],
+        "additionalProperties": false
+      }
+    },
+
+    "checksum": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 127,
+      "description": "Final checksum byte from SysEx."
+    }
+  },
+
+  "required": ["name", "parameters", "effects", "controllers", "checksum"],
+  "additionalProperties": false
+}
