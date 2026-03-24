@@ -1,0 +1,21 @@
+This file contains all 127 VOODU VALVE ON-LINE presets.
+
+This file is a BULK DUMP of the VooDu Valve On-Line presets, so it
+must be loaded into a VooDu Valve as a BULK LOAD.  These presets 
+may be loaded into ANY version of the VooDu Valve. 
+
+The VooDu Valve must receive the data at the same rate that it sends.
+If you encounter a "RECEIVE ERROR" when performing a bulk load, then
+you'll need to slow down the send rate.
+
+To adjust Dumpsters send rate, click on Options, then MIDI Devices.
+At the bottom of the window will be a parameter called "Delay between
+blocks".  Increase the delay time until you no longer experience a
+receive error.
+
+This will overwrite all your current presets so it is suggested that
+you use Dumpster to back up your current presets before loading these
+new On-Line presets.  If you back up your own presets individually 
+(not bulk), then you may load back your favorite custom presets in the 
+preset locations you so choose, allowing you to keep the new On-Line 
+presets of your choice.

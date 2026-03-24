@@ -1,0 +1,50 @@
+Preset Name:  WOMEN[IN[LUV
+ *Configuration*  Phaser, Low-Gain, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	  8	Left Level:	  8
+	Mix/Dir:	 50%	Pan (0<>100):	 50%
+	Delay Level:	 -2	Reverb Level:	 -1
+ *Gain Section*  (LOW-GAIN)
+	Gain:	17	Distortion Type: Solid State
+	Post Levels:
+	  Bass:  15  Mid:   0  Treb:  11  Pres:  15
+ *Hush Section*  HUSH OUT  Threshhold: -87
+ *Speaker Sim*  BOTH	 Speaker Type: 12"
+	Mic Placement:   0
+	    Reactance:   0
+ *Pre EQ Section*
+	Low Frequency - Level:    6   Freq:   92 HZ
+	Mid Frequency - Level:   12   Freq: 2181 HZ   Bandwidth: 1.2 OCT
+ *Post EQ Section*
+	Bass     - Freq:  105 HZ   Bandwidth: 2.0 OCT
+	Midrange - Freq:  479 HZ   Bandwidth:  .6 OCT
+	Treble   - Freq: 4000 HZ   Bandwidth: 2.0 OCT
+	Presence - Freq: 8000 HZ   Bandwidth:  .9 OCT
+ *Compressor*   IN
+	Threshold:  -24   Attack:   1ms   Release:  .05s
+ *Phaser Section*   IN
+	Depth:  75   Rate:  25
+	Resonance:  75   Stages: 4
+ *Delay Section*   ACTIVE
+	Mute Type: BOTH   Src Mix:  33%   Src2: VOICE2   HF Damp: 30
+	Delay1 - Output:   3   Pan:   0%   Delay: 344ms   Regen: -15
+	Delay2 - Output:   1   Pan: 100%   Delay: 344ms   Regen: -15
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:  72%   Decay: 69   HF Damp: 25
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: DIR/EFF MIX
+		UpperLim: 100%   LowerLim:  0%
+	Controller:  11(EXPRESSION)   Parameter: PHASER
+		UpperLim: IN   LowerLim: OUT
+	Controller:  12(EFFCTL1)   Parameter: DELAY
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  13(EFFCTL2)   Parameter: REVERB INPUT
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  14(---)   Parameter: MUTE
+		UpperLim: ON   LowerLim: OFF
+	Controller:  17(GPCTL2)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

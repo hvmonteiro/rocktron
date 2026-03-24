@@ -1,0 +1,46 @@
+Preset Name:   TOUGHY CLN 
+ *Configuration*  Phaser, Low-Gain, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	  1	Left Level:	  1
+	Mix/Dir:	  0%	Pan (0<>100):	 50%
+	Delay Level:	  3	Reverb Level:	  6
+ *Gain Section*  (LOW-GAIN)
+	Gain:	12	Distortion Type: Solid State
+	Post Levels:
+	  Bass:   5  Mid:  -6  Treb:   9  Pres:  13
+ *Hush Section*  HUSH  IN  Threshhold: -41
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    6   Freq:   96 HZ
+	Mid Frequency - Level:    3   Freq: 4000 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:  105 HZ   Bandwidth: 2.0 OCT
+	Midrange - Freq:  805 HZ   Bandwidth: 1.0 OCT
+	Treble   - Freq: 4177 HZ   Bandwidth: 1.8 OCT
+	Presence - Freq: 6442 HZ   Bandwidth: 1.0 OCT
+ *Compressor*  OUT
+	Threshold:    0   Attack:   1ms   Release:  2.0s
+ *Phaser Section*  OUT
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix:  50%   Src2: DIRECT   HF Damp: 99
+	Delay1 - Output:  -1   Pan:  50%   Delay: 104ms   Regen: -INF
+	Delay2 - Output: -INF   Pan: 100%   Delay: 900ms   Regen: -INF
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY: 100%   Decay: 15   HF Damp: 99
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: DIR/EFF MIX
+		UpperLim: 100%   LowerLim:  0%
+	Controller:  11(EXPRESSION)   Parameter: PHASER
+		UpperLim: IN   LowerLim: OUT
+	Controller:  12(EFFCTL1)   Parameter: DELAY
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  13(EFFCTL2)   Parameter: REVERB INPUT
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  14(---)   Parameter: MUTE
+		UpperLim: ON   LowerLim: OFF
+	Controller:  17(GPCTL2)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

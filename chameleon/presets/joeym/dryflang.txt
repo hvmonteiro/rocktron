@@ -1,0 +1,47 @@
+Preset Name:  DRY FLANGE  
+ *Configuration*  Low-Gain, Flanger, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	 -6	Left Level:	 -6
+	Mix/Dir:	 59%	Pan (0<>100):	 32%
+	Delay Level:	-INF	Reverb Level:	 -4
+ *Gain Section*  (LOW-GAIN)
+	Gain:	45	Distortion Type: Solid State
+	Post Levels:
+	  Bass:  10  Mid:  -2  Treb:   6  Pres:  11
+ *Hush Section*  HUSH  IN  Threshhold: -52
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    2   Freq:  110 HZ
+	Mid Frequency - Level:   10   Freq: 1000 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:  101 HZ   Bandwidth: 1.5 OCT
+	Midrange - Freq:  569 HZ   Bandwidth:  .5 OCT
+	Treble   - Freq: 2278 HZ   Bandwidth: 1.4 OCT
+	Presence - Freq: 6727 HZ   Bandwidth:  .2 OCT
+ *Compressor*  OUT
+	Threshold:  -24   Attack:   1ms   Release:  .05s
+ *Flanger Section*   IN
+	Flanger1 - Level:   4   Pan: 100%
+	          Depth:  61   Rate:   4
+	Flanger2 - Level:   4   Pan: 0%
+	          Depth:  59   Rate:   4
+	Regeneration:    1
+ *Delay Section*   MUTED
+ *Reverb Section*   MUTED
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: DIR/EFF MIX
+		UpperLim: 100%   LowerLim:  0%
+	Controller:  11(EXPRESSION)   Parameter: FLANGER
+		UpperLim: IN   LowerLim: OUT
+	Controller:  12(EFFCTL1)   Parameter: DELAY
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  13(EFFCTL2)   Parameter: REVERB INPUT
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  14(---)   Parameter: MUTE
+		UpperLim: ON   LowerLim: OFF
+	Controller:  17(GPCTL2)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

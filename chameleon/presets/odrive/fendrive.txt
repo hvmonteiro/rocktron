@@ -1,0 +1,27 @@
+Preset Name:  FENDER.DRIVE
+ *Configuration*  Low-Gain, Tremolo, Delay, Reverb
+ *Mixer Section*  Master Volume: 100
+	Right Level:	-13	Left Level:	-13
+	Mix/Dir:	 10%	Pan (0<>100):	 50%
+	Delay Level:	-30	Reverb Level:	-10
+ *Gain Section*  (LOW-GAIN)
+	Gain:	35	Distortion Type: Pentode
+	Post Levels:
+	  Bass:   8  Mid:   0  Treb:   7  Pres:   7
+ *Hush Section*  HUSH  IN  Threshhold: -60
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    2   Freq:  297 HZ
+	Mid Frequency - Level:    5   Freq: 1000 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:   88 HZ   Bandwidth: 1.0 OCT
+	Midrange - Freq:  677 HZ   Bandwidth:  .6 OCT
+	Treble   - Freq: 2378 HZ   Bandwidth: 1.3 OCT
+	Presence - Freq: 7025 HZ   Bandwidth: 1.0 OCT
+ *Compressor*  OUT
+	Threshold:  -24   Attack:   1ms   Release:  .05s
+ *Tremolo Section*  OUT
+ *Delay Section*   MUTED
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:   0%   Decay: 49   HF Damp: 40
+

@@ -1,0 +1,35 @@
+Preset Name:  ARSCHLOCH;;;
+ *Configuration*  High-Gain, Tremolo, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	 -4	Left Level:	 -4
+	Mix/Dir:	 50%	Pan (0<>100):	 50%
+	Delay Level:	  3	Reverb Level:	  2
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	67	Variac Adjust:	-1
+	Post Levels:
+	  Bass:   6  Mid:  -1  Treb:   2  Pres:   4
+ *Hush Section*  HUSH  IN  Threshhold: -34
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    0   Freq:  297 HZ
+	Mid Frequency - Level:    6   Freq:  917 HZ   Bandwidth: 1.2 OCT
+ *Post EQ Section*
+	Bass     - Freq:  101 HZ   Bandwidth:  .9 OCT
+	Midrange - Freq:  677 HZ   Bandwidth:  .7 OCT
+	Treble   - Freq: 2378 HZ   Bandwidth:  .8 OCT
+	Presence - Freq: 6727 HZ   Bandwidth:  .8 OCT
+ *Tremolo Section*   IN
+	Location: Post-Reverb   Shape: Square
+	Depth:  97   Rate: 193
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix:  50%   Src2: VOICE2   HF Damp: 37
+	Delay1 - Output:   6   Pan:   0%   Delay: 1000ms   Regen:  -6
+	Delay2 - Output:   6   Pan: 100%   Delay: 500ms   Regen: -10
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:  60%   Decay: 50   HF Damp: 40
+ *Controller Assignments*
+	NONE
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

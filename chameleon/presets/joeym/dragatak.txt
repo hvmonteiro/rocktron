@@ -1,0 +1,42 @@
+Preset Name:  DRAGON ATTAK
+ *Configuration*  Phaser, High-Gain, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	  0	Left Level:	  0
+	Mix/Dir:	 36%	Pan (0<>100):	 49%
+	Delay Level:	  0	Reverb Level:	 -9
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	47	Variac Adjust:	-6
+	Post Levels:
+	  Bass:  10  Mid:   5  Treb:   7  Pres:   8
+ *Hush Section*  HUSH  IN  Threshhold: -42
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    1   Freq:  500 HZ
+	Mid Frequency - Level:    8   Freq:  500 HZ   Bandwidth:  .4 OCT
+ *Post EQ Section*
+	Bass     - Freq:  105 HZ   Bandwidth:  .9 OCT
+	Midrange - Freq:  805 HZ   Bandwidth: 1.9 OCT
+	Treble   - Freq: 4000 HZ   Bandwidth:  .5 OCT
+	Presence - Freq: 5657 HZ   Bandwidth:  .5 OCT
+ *Phaser Section*   IN
+	Depth:  71   Rate:  10
+	Resonance:  60   Stages: 6
+ *Delay Section*   MUTED
+ *Reverb Section*   MUTED
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: DIR/EFF MIX
+		UpperLim: 100%   LowerLim:  0%
+	Controller:  11(EXPRESSION)   Parameter: PHASER
+		UpperLim: IN   LowerLim: OUT
+	Controller:  12(EFFCTL1)   Parameter: DELAY
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  13(EFFCTL2)   Parameter: REVERB INPUT
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  14(---)   Parameter: MUTE
+		UpperLim: ON   LowerLim: OFF
+	Controller:  17(GPCTL2)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

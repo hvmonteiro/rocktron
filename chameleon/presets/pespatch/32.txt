@@ -1,0 +1,36 @@
+Preset Name:  HELLCASTERS 
+ *Configuration*  Low-Gain, Pitch Shift, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	 -4	Left Level:	 -4
+	Mix/Dir:	 50%	Pan (0<>100):	 25%
+	Delay Level:	 -4	Reverb Level:	-16
+ *Gain Section*  (LOW-GAIN)
+	Gain:	20	Distortion Type: Pentode
+	Post Levels:
+	  Bass:  12  Mid: -15  Treb:  11  Pres:  10
+ *Hush Section*  HUSH OUT  Threshhold: -90
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    1   Freq:  101 HZ
+	Mid Frequency - Level:  -13   Freq:  958 HZ   Bandwidth:  .4 OCT
+ *Post EQ Section*
+	Bass     - Freq:   92 HZ   Bandwidth: 1.1 OCT
+	Midrange - Freq:  250 HZ   Bandwidth:  .2 OCT
+	Treble   - Freq: 5907 HZ   Bandwidth: 2.0 OCT
+	Presence - Freq: 4757 HZ   Bandwidth:  .2 OCT
+ *Compressor*   IN
+	Threshold:   -5   Attack:   1ms   Release:  0.7s
+ *Pitch Shifter*  OUT
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix:  50%   Src2: DIRECT   HF Damp:  8
+	Delay1 - Output:  -4   Pan:  50%   Delay: 252ms   Regen: -14
+	Delay2 - Output:   6   Pan:  50%   Delay: 252ms   Regen: -14
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:  60%   Decay: 80   HF Damp:  0
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: LEFT OUT LVL
+		UpperLim: 49   LowerLim: -INF
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

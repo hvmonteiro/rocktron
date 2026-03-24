@@ -1,0 +1,17 @@
+3 Sounds from Sauerland (NRW Germany)
+for the Rocktron Voodu Valve
+        --------------------
+
+DRYcrun.syx   DRY Crunch  (dynamic)
+LetitBe.syx   Clapton Solo on Beatles Evergreen
+Modern.syx    Power Sound (no refrigerator Sound)
+
+
+Instruments: Gibson Les Paul Standard, Fender Stratocaster,
+             Reussenzehn Guitar Slave 100,
+             Hughes&Kettner Triamp Box
+
+(Play without Speaker Simulation !)
+
+J”rg Schulte
+E-Mail: joerg.schulte@mathematik.uni-siegen.d400.de

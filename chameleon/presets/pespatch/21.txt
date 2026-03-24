@@ -1,0 +1,34 @@
+Preset Name:  ALCATRAZZ.1 
+ *Configuration*  High-Gain, Chorus, Delay, Reverb
+ *Mixer Section*  Master Volume: 100
+	Right Level:	-17	Left Level:	-17
+	Mix/Dir:	 10%	Pan (0<>100):	 50%
+	Delay Level:	  6	Reverb Level:	 -9
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	65	Variac Adjust:	 0
+	Post Levels:
+	  Bass:  10  Mid:   6  Treb:   6  Pres:  11
+ *Hush Section*  HUSH  IN  Threshhold: -50
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:   -1   Freq:  297 HZ
+	Mid Frequency - Level:    2   Freq: 1000 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:   88 HZ   Bandwidth: 1.0 OCT
+	Midrange - Freq:  677 HZ   Bandwidth:  .6 OCT
+	Treble   - Freq: 2378 HZ   Bandwidth: 1.3 OCT
+	Presence - Freq: 7025 HZ   Bandwidth: 1.0 OCT
+ *Chorus Section*  OUT
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix:  50%   Src2: DIRECT   HF Damp:  0
+	Delay1 - Output:   1   Pan: 100%   Delay: 120ms   Regen: -INF
+	Delay2 - Output:   1   Pan: 100%   Delay: 120ms   Regen: -INF
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:   0%   Decay: 49   HF Damp: 40
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: LEFT OUT LVL
+		UpperLim: 49   LowerLim: -INF
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

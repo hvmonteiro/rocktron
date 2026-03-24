@@ -1,0 +1,49 @@
+Preset Name:  BOX O'CRUNCH
+ *Configuration*  Low-Gain, Chorus, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	  0	Left Level:	  0
+	Mix/Dir:	 50%	Pan (0<>100):	 50%
+	Delay Level:	  0	Reverb Level:	 -1
+ *Gain Section*  (LOW-GAIN)
+	Gain:	48	Distortion Type: Triode B
+	Post Levels:
+	  Bass:   5  Mid:   2  Treb:  13  Pres:  -5
+ *Hush Section*  HUSH  IN  Threshhold: -86
+ *Speaker Sim*  BOTH	 Speaker Type: 15"
+	Mic Placement: -10
+	    Reactance: -15
+ *Pre EQ Section*
+	Low Frequency - Level:   -9   Freq:  500 HZ
+	Mid Frequency - Level:   12   Freq: 2278 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:  210 HZ   Bandwidth:  .3 OCT
+	Midrange - Freq:  522 HZ   Bandwidth:  .6 OCT
+	Treble   - Freq: 1000 HZ   Bandwidth: 1.7 OCT
+	Presence - Freq: 2000 HZ   Bandwidth: 2.0 OCT
+ *Compressor*   IN
+	Threshold:  -18   Attack:   2ms   Release:  1.6s
+ *Chorus Section*   IN
+	Chorus1 - Level:   0   Pan: 100%
+	          Depth:  41   Rate:   0   Delay:  2ms
+	Chorus2 - Level:   0   Pan: 100%
+	          Depth:  45   Rate:   0   Delay:  2ms
+ *Delay Section*   MUTED
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:   0%   Decay: 70   HF Damp:  0
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: DIR/EFF MIX
+		UpperLim: 100%   LowerLim:  0%
+	Controller:  11(EXPRESSION)   Parameter: CRS/FL LVL1
+		UpperLim: 6   LowerLim: -INF
+	Controller:  11(EXPRESSION)   Parameter: CRS/FL LVL2
+		UpperLim: 6   LowerLim: -INF
+	Controller:  13(EFFCTL2)   Parameter: REVERB INPUT
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  14(---)   Parameter: MUTE
+		UpperLim: ON   LowerLim: OFF
+	Controller:  17(GPCTL2)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

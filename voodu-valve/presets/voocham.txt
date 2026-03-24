@@ -1,0 +1,13 @@
+Ok VooDu Valve owners... Here's the new Chameleon On-Line presets
+that have been converted by your Webmaster, Dave, for the VooDu Valve.
+These were entered one at a time by hand and took many hours, so 
+enjoy!!
+
+Load this file as a BULK LOAD.  The first 127 presets are the Chameleon
+On-Line presets, and the rest are the Original VooDu Valve presets with
+Speaker Simulation on.
+
+Cheers!
+Dave
+
+daved@rocktron.com

@@ -1,0 +1,43 @@
+Preset Name:    WAH-WAH   
+ *Configuration*  Wah, High-Gain, Delay, Reverb
+ *Mixer Section*  Master Volume:  71
+	Right Level:	 -2	Left Level:	 -2
+	Mix/Dir:	  0%	Pan (0<>100):	 50%
+	Delay Level:	  3	Reverb Level:	 -4
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	66	Variac Adjust:	 0
+	Post Levels:
+	  Bass:  14  Mid: -15  Treb:  10  Pres:   8
+ *Hush Section*  HUSH  IN  Threshhold: -46
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    2   Freq:  354 HZ
+	Mid Frequency - Level:    8   Freq: 1139 HZ   Bandwidth: 1.2 OCT
+ *Post EQ Section*
+	Bass     - Freq:   85 HZ   Bandwidth:  .7 OCT
+	Midrange - Freq: 1242 HZ   Bandwidth:  .7 OCT
+	Treble   - Freq: 2278 HZ   Bandwidth: 1.2 OCT
+	Presence - Freq: 6169 HZ   Bandwidth:  .9 OCT
+ *Wah Section*   IN
+	Frequency:  310 HZ
+ *Delay Section*   MUTED
+ *Reverb Section*   MUTED
+ *Controller Assignments*
+	Controller:   1(MODULATION)   Parameter: WAH FREQ
+		UpperLim: 2600 HZ   LowerLim:  310 HZ
+	Controller:  11(EXPRESSION)   Parameter: WAH-WAH
+		UpperLim: IN   LowerLim: OUT
+	Controller:  12(EFFCTL1)   Parameter: DELAY
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  13(EFFCTL2)   Parameter: REVERB INPUT
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  14(---)   Parameter: MUTE
+		UpperLim: ON   LowerLim: OFF
+	Controller:  17(GPCTL2)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+	Controller:  16(GPCTL1)   Parameter: WAH FREQ
+		UpperLim: 2600 HZ   LowerLim:  310 HZ
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

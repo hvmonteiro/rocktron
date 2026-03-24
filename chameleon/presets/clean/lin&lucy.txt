@@ -1,0 +1,34 @@
+Preset Name:  LINUS N LUCY
+ *Configuration*  Low-Gain, Pitch Shift, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	 12	Left Level:	 12
+	Mix/Dir:	 51%	Pan (0<>100):	 50%
+	Delay Level:	-12	Reverb Level:	 -1
+ *Gain Section*  (LOW-GAIN)
+	Gain:	19	Distortion Type: Pentode
+	Post Levels:
+	  Bass:   6  Mid: -10  Treb:  10  Pres:  10
+ *Hush Section*  HUSH  IN  Threshhold: -60
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    0   Freq:  101 HZ
+	Mid Frequency - Level:   -9   Freq:  569 HZ   Bandwidth: 1.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:  101 HZ   Bandwidth: 1.7 OCT
+	Midrange - Freq: 1189 HZ   Bandwidth: 2.0 OCT
+	Treble   - Freq: 8000 HZ   Bandwidth: 2.0 OCT
+	Presence - Freq: 8000 HZ   Bandwidth: 2.0 OCT
+ *Compressor*   IN
+	Threshold:  -12   Attack:   1ms   Release:  1.0s
+ *Pitch Shifter*   IN
+	Level:   6   Pan:  50   Speed: Slow
+	Pitch: -1200   Fine:   0 cents
+ *Delay Section*   MUTED
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:  25%   Decay: 52   HF Damp: 30
+ *Controller Assignments*
+	NONE
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

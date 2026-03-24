@@ -1,0 +1,35 @@
+Preset Name:  ECHO;ETUDE  
+ *Configuration*  High-Gain, Chorus, Delay, Reverb
+ *Mixer Section*  Master Volume:  91
+	Right Level:	 -3	Left Level:	 -3
+	Mix/Dir:	 50%	Pan (0<>100):	100%
+	Delay Level:	  4	Reverb Level:	  2
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	71	Variac Adjust:	-1
+	Post Levels:
+	  Bass:   5  Mid:  -6  Treb:   5  Pres:   7
+ *Hush Section*  HUSH  IN  Threshhold: -58
+ *Speaker Sim*  BOTH	 Speaker Type: 12"
+	Mic Placement:  -3
+	    Reactance:   0
+ *Pre EQ Section*
+	Low Frequency - Level:  -10   Freq:  201 HZ
+	Mid Frequency - Level:   12   Freq: 2278 HZ   Bandwidth: 1.2 OCT
+ *Post EQ Section*
+	Bass     - Freq:  142 HZ   Bandwidth: 1.0 OCT
+	Midrange - Freq:  439 HZ   Bandwidth:  .6 OCT
+	Treble   - Freq: 4967 HZ   Bandwidth: 1.0 OCT
+	Presence - Freq: 3668 HZ   Bandwidth: 2.0 OCT
+ *Chorus Section*  OUT
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix:  50%   Src2: DIRECT   HF Damp:  0
+	Delay1 - Output:   6   Pan:   0%   Delay: 360ms   Regen: -INF
+	Delay2 - Output: -INF   Pan:   0%   Delay: 420ms   Regen: -14
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:  17%   Decay: 66   HF Damp: 17
+ *Controller Assignments*
+	NONE
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

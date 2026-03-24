@@ -1,0 +1,34 @@
+Preset Name:  ENDLESSDELAY
+ *Configuration*  High-Gain, Chorus, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	 -8	Left Level:	 -8
+	Mix/Dir:	  0%	Pan (0<>100):	 50%
+	Delay Level:	  4	Reverb Level:	 -7
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	54	Variac Adjust:	 0
+	Post Levels:
+	  Bass:   8  Mid:   4  Treb:   6  Pres:   9
+ *Hush Section*  HUSH  IN  Threshhold: -90
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    2   Freq:  354 HZ
+	Mid Frequency - Level:   12   Freq: 1139 HZ   Bandwidth: 1.2 OCT
+ *Post EQ Section*
+	Bass     - Freq:  120 HZ   Bandwidth:  .7 OCT
+	Midrange - Freq:  878 HZ   Bandwidth: 1.0 OCT
+	Treble   - Freq: 4000 HZ   Bandwidth:  .8 OCT
+	Presence - Freq: 8000 HZ   Bandwidth:  .9 OCT
+ *Chorus Section*  OUT
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix: 100%   Src2: DIRECT   HF Damp: 26
+	Delay1 - Output:  -5   Pan:   0%   Delay: 700ms   Regen:  -2
+	Delay2 - Output:  -5   Pan: 100%   Delay: 1000ms   Regen: -59
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:   0%   Decay: 64   HF Damp: 35
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: LEFT OUT LVL
+		UpperLim: 49   LowerLim: -INF
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

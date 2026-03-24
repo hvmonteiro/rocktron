@@ -1,0 +1,50 @@
+Preset Name:    [CLEAN    
+ *Configuration*  Low-Gain, Chorus, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	 12	Left Level:	 12
+	Mix/Dir:	 51%	Pan (0<>100):	 50%
+	Delay Level:	-12	Reverb Level:	 -6
+ *Gain Section*  (LOW-GAIN)
+	Gain:	18	Distortion Type: Solid State
+	Post Levels:
+	  Bass:  13  Mid: -15  Treb:   5  Pres:  15
+ *Hush Section*  HUSH  IN  Threshhold: -81
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    0   Freq:  101 HZ
+	Mid Frequency - Level:   -9   Freq:  569 HZ   Bandwidth: 1.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:  101 HZ   Bandwidth: 1.7 OCT
+	Midrange - Freq: 1189 HZ   Bandwidth: 2.0 OCT
+	Treble   - Freq: 8000 HZ   Bandwidth: 2.0 OCT
+	Presence - Freq: 8000 HZ   Bandwidth: 2.0 OCT
+ *Compressor*   IN
+	Threshold:  -12   Attack:   1ms   Release:  1.0s
+ *Chorus Section*   IN
+	Chorus1 - Level:   6   Pan: 0%
+	          Depth:  29   Rate:  43   Delay: 32ms
+	Chorus2 - Level:   6   Pan: 100%
+	          Depth:  32   Rate:   8   Delay: 40ms
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix:  50%   Src2: VOICE2   HF Damp:  0
+	Delay1 - Output:   6   Pan:   0%   Delay: 464ms   Regen: -37
+	Delay2 - Output:   6   Pan: 100%   Delay: 464ms   Regen: -42
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:  23%   Decay: 52   HF Damp: 30
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: DIR/EFF MIX
+		UpperLim: 100%   LowerLim:  0%
+	Controller:  11(EXPRESSION)   Parameter: CHORUS
+		UpperLim: IN   LowerLim: OUT
+	Controller:  12(EFFCTL1)   Parameter: DELAY
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  13(EFFCTL2)   Parameter: REVERB INPUT
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  14(---)   Parameter: MUTE
+		UpperLim: ON   LowerLim: OFF
+	Controller:  17(GPCTL2)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

@@ -1,0 +1,37 @@
+Preset Name: PINK;DANDRUFF
+ *Configuration*  Low-Gain, Tremolo, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	-12	Left Level:	-12
+	Mix/Dir:	 51%	Pan (0<>100):	 50%
+	Delay Level:	  6	Reverb Level:	 -1
+ *Gain Section*  (LOW-GAIN)
+	Gain:	48	Distortion Type: Triode B
+	Post Levels:
+	  Bass:  10  Mid:   5  Treb:   7  Pres:   8
+ *Hush Section*  HUSH  IN  Threshhold: -58
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:  -14   Freq:   92 HZ
+	Mid Frequency - Level:   12   Freq: 1414 HZ   Bandwidth: 1.2 OCT
+ *Post EQ Section*
+	Bass     - Freq:  105 HZ   Bandwidth:  .6 OCT
+	Midrange - Freq:  479 HZ   Bandwidth:  .6 OCT
+	Treble   - Freq: 4000 HZ   Bandwidth:  .3 OCT
+	Presence - Freq: 8000 HZ   Bandwidth:  .9 OCT
+ *Compressor*  OUT
+	Threshold:  -24   Attack:   1ms   Release:  .05s
+ *Tremolo Section*   IN
+	Location: Post-Reverb   Shape: Triangle
+	Depth:  40   Rate:  75
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix:  50%   Src2: DIRECT   HF Damp:  0
+	Delay1 - Output: -14   Pan:   0%   Delay: 352ms   Regen: -19
+	Delay2 - Output:  -4   Pan: 100%   Delay:   0ms   Regen: -58
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:  21%   Decay: 54   HF Damp: 47
+ *Controller Assignments*
+	NONE
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

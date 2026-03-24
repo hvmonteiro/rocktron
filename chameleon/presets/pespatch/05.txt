@@ -1,0 +1,36 @@
+Preset Name:  ERIC JOHNSON
+ *Configuration*  Low-Gain, Tremolo, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	 12	Left Level:	 12
+	Mix/Dir:	  0%	Pan (0<>100):	 50%
+	Delay Level:	-19	Reverb Level:	 -4
+ *Gain Section*  (LOW-GAIN)
+	Gain:	13	Distortion Type: Triode B
+	Post Levels:
+	  Bass:  12  Mid: -12  Treb:  10  Pres:  15
+ *Hush Section*  HUSH  IN  Threshhold: -77
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    3   Freq:  120 HZ
+	Mid Frequency - Level:   -5   Freq: 1242 HZ   Bandwidth: 1.2 OCT
+ *Post EQ Section*
+	Bass     - Freq:  125 HZ   Bandwidth: 2.0 OCT
+	Midrange - Freq:  878 HZ   Bandwidth:  .8 OCT
+	Treble   - Freq: 5657 HZ   Bandwidth: 1.6 OCT
+	Presence - Freq: 7025 HZ   Bandwidth: 2.0 OCT
+ *Compressor*   IN
+	Threshold:   -6   Attack:   1ms   Release:  1.0s
+ *Tremolo Section*  OUT
+ *Delay Section*   ACTIVE
+	Mute Type: POST   Src Mix:  50%   Src2: DIRECT   HF Damp:  0
+	Delay1 - Output:   1   Pan:  50%   Delay: 400ms   Regen:  -9
+	Delay2 - Output:   1   Pan:  50%   Delay: 400ms   Regen:  -9
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:   0%   Decay: 77   HF Damp: 30
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: LEFT OUT LVL
+		UpperLim: 49   LowerLim: -INF
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

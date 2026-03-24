@@ -1,0 +1,31 @@
+Preset Name:    SANTANA[; 
+ *Configuration*  High-Gain, Pitch Shift, Delay, Reverb
+ *Mixer Section*  Master Volume: 120
+	Right Level:	  1	Left Level:	  1
+	Mix/Dir:	 80%	Pan (0<>100):	 50%
+	Delay Level:	-18	Reverb Level:	-14
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	40	Variac Adjust:	-6
+	Post Levels:
+	  Bass:  10  Mid:   3  Treb:  10  Pres:   8
+ *Hush Section*  HUSH  IN  Threshhold: -71
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    5   Freq:   81 HZ
+	Mid Frequency - Level:    5   Freq: 2000 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:   85 HZ   Bandwidth: 2.0 OCT
+	Midrange - Freq:  707 HZ   Bandwidth:  .9 OCT
+	Treble   - Freq: 3513 HZ   Bandwidth:  .2 OCT
+	Presence - Freq: 6727 HZ   Bandwidth: 2.0 OCT
+ *Pitch Shifter*  OUT
+ *Delay Section*   MUTED
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:  50%   Decay: 60   HF Damp: 10
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: POST PRESENCE FREQ
+		UpperLim: 2089 HZ   LowerLim: 2000 HZ
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

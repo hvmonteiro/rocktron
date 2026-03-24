@@ -1,0 +1,30 @@
+Rocktron Voodu Valve presets from Oslo-Norway
+
+
+#  Presetname		Comments	
+01-Lead me on 		Inspired by Steve Lukather and Dann Huff
+02-Funky phaser		Cool for funky rythm parts
+03-Vibrator		Vintage guitar sound?
+04-The Loner		You'll need a Stratocaster for this one!
+07-Tøff lyd		Preset name in norwegian means "cool sound"
+08-Hendrixfuzz		Comments needless
+10-Clean slate		Clean sound with chorus
+12-Warm jazz		Inspired by Mike Stern's "Upside downside"
+13-Flangrande		I tried to emulate Neal Schon from "Suzanne"
+			and ended up with something totally different.
+15-Grand dizzer		Don't use this preset while watching "Twister"
+16-Sykedelisk		Norwegian for psychedelic
+19-I owe you		Inspired by Allan Holdsworth-hence "I.O.U."
+21-Ytse jammer		John Petrucci inspired
+22-Kvalming		Norwegian for "You make me sick"
+25-Landau grit		Michael Landau with Burning Water 
+26-Chap Allan		Metal fatigue
+28-Fahrenheit		Luke rules!! Maybe to much effects on this one?
+29-Isolation		Luke still rules. Effects???? No way!!
+30-Alex Lifeson		Inspired by a song from the "Grace under pressure"
+			album.
+
+
+
+These presets were submitted by Per Sviggum (psviggum@sn.no)and are free
+for all to (ab)use. PLAY LOUD!! 

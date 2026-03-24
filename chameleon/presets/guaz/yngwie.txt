@@ -1,0 +1,36 @@
+Preset Name:  YNGWIE ;;;; 
+ *Configuration*  High-Gain, Chorus, Delay, Reverb
+ *Mixer Section*  Master Volume: 100
+	Right Level:	-12	Left Level:	-12
+	Mix/Dir:	 40%	Pan (0<>100):	 50%
+	Delay Level:	  0	Reverb Level:	  0
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	72	Variac Adjust:	-2
+	Post Levels:
+	  Bass:   8  Mid:   3  Treb:   9  Pres:  10
+ *Hush Section*  HUSH  IN  Threshhold: -48
+ *Speaker Sim*  BOTH	 Speaker Type: 15"
+	Mic Placement:   0
+	    Reactance:   1
+ *Pre EQ Section*
+	Low Frequency - Level:  -15   Freq:  273 HZ
+	Mid Frequency - Level:    4   Freq: 4000 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:  142 HZ   Bandwidth: 1.0 OCT
+	Midrange - Freq:  621 HZ   Bandwidth: 2.0 OCT
+	Treble   - Freq: 5657 HZ   Bandwidth: 2.0 OCT
+	Presence - Freq: 4967 HZ   Bandwidth: 2.0 OCT
+ *Chorus Section*   IN
+	Chorus1 - Level:   6   Pan: 100%
+	          Depth:   0   Rate:   0   Delay: 10ms
+	Chorus2 - Level:   6   Pan: 0%
+	          Depth:   0   Rate:   0   Delay:  2ms
+ *Delay Section*   MUTED
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:  10%   Decay: 65   HF Damp: 24
+ *Controller Assignments*
+	NONE
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

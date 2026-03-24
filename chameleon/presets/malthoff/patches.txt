@@ -1,0 +1,45 @@
+The patches so far...
+I own my Chameleon since 1994 or even earlier, such a long time!
+Never let me down, really enjoy using it. 
+
+I put some of my patches together, have a try. Anyway, felt it is time to give sth. back to Rocktron and its users.
+
+Some are just minor variations to the original. Speakersim is always on.
+
+Any kind of feedback is highly welcome!!
+mailto:martin-jo@gmx.de
+
+Regards,
+Martin
+Feb/2001
+
+
+117_far_away.syx	distorted large hall some delay
+04_psychosis.syx	some nice effectloaded rhythm nice, undistorted
+06_evidence.syx		some cool jazz sound inspired by "evidence" of fnm
+08_beethoven.syx	changed the originla a bit, undistorted
+18_bizarre.syx		metal sound
+24_flower.syx		names speaks for itself, clean, delay, reverb
+25_dreckstueck.syx	some bad sound
+29_bizarre.syx		distorted with lots of delay
+30_burning.syx		simply hard rock
+31_l_a_suckers.syx	westcoast sound, just play, everything will sound OK
+41_get_a_grip_dry.syx	MY FAVORITE!!
+46_get_a_grip_small_hall.syx	the same just more reverb
+47_far_away.syx		something with delay and distortion
+48_counterpart.syx	inspired by Rush song
+49_ed_van_halen.syx	nc
+50_judgementday.syx	some more mean distorted sound
+55_get_a_grip_real_mean.syx	THE mean distorted sound
+58_the_forest.syx	lots of delay, very tragic sound
+62_cold_shot.syx	some pure clean sound
+76_lukather.syx		sth. like Mr. Lukather
+80_sphaere_Z27.syx	celean sound, some delay, some reverb
+89_ed_van_halen.syx	nc
+90_far_away.syx		large delay, large reverb
+106_voll_saeckig.syx	some mean sound
+107_hilti_flex.syx	more than mean sound
+108_luka_bloom.syx	great for accoustic guitar
+03_deadburned.syx	inspired by REM
+127_luka_large.syx	again sth. for accoustic
+

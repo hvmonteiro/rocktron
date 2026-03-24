@@ -1,0 +1,33 @@
+Preset Name:  PRS[O'DRIVE 
+ *Configuration*  Low-Gain, Chorus, Delay, Reverb
+ *Mixer Section*  Master Volume:  80
+	Right Level:	  0	Left Level:	  0
+	Mix/Dir:	 80%	Pan (0<>100):	 50%
+	Delay Level:	-18	Reverb Level:	-14
+ *Gain Section*  (LOW-GAIN)
+	Gain:	29	Distortion Type: Triode A
+	Post Levels:
+	  Bass:  10  Mid:  -5  Treb:   9  Pres:   5
+ *Hush Section*  HUSH  IN  Threshhold: -46
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    5   Freq:   81 HZ
+	Mid Frequency - Level:   -1   Freq: 2000 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:   85 HZ   Bandwidth: 1.5 OCT
+	Midrange - Freq:  707 HZ   Bandwidth: 1.8 OCT
+	Treble   - Freq: 3513 HZ   Bandwidth:  .2 OCT
+	Presence - Freq: 6727 HZ   Bandwidth: 2.0 OCT
+ *Compressor*  OUT
+	Threshold:  -16   Attack:   1ms   Release:  2.0s
+ *Chorus Section*  OUT
+ *Delay Section*   MUTED
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:  50%   Decay: 60   HF Damp: 10
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: SPKR SIM
+		UpperLim: ACTIVE   LowerLim: OFF
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

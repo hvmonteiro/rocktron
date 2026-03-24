@@ -1,0 +1,40 @@
+Preset Name:  CLEAN PLANET
+ *Configuration*  Low-Gain, Chorus, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	 12	Left Level:	 12
+	Mix/Dir:	 24%	Pan (0<>100):	 50%
+	Delay Level:	-21	Reverb Level:	 -7
+ *Gain Section*  (LOW-GAIN)
+	Gain:	10	Distortion Type: Solid State
+	Post Levels:
+	  Bass:   9  Mid:  -4  Treb:   2  Pres:  15
+ *Hush Section*  HUSH  IN  Threshhold: -46
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    1   Freq:   88 HZ
+	Mid Frequency - Level:   -4   Freq: 1000 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:   88 HZ   Bandwidth: 1.0 OCT
+	Midrange - Freq:  707 HZ   Bandwidth:  .6 OCT
+	Treble   - Freq: 3364 HZ   Bandwidth: 1.3 OCT
+	Presence - Freq: 4967 HZ   Bandwidth: 1.0 OCT
+ *Compressor*   IN
+	Threshold:  -12   Attack:   1ms   Release:  0.6s
+ *Chorus Section*   IN
+	Chorus1 - Level:   6   Pan: 0%
+	          Depth:  36   Rate:  10   Delay: 14ms
+	Chorus2 - Level:   6   Pan: 100%
+	          Depth:  36   Rate:  10   Delay: 28ms
+ *Delay Section*   ACTIVE
+	Mute Type: BOTH   Src Mix:   0%   Src2: DIRECT   HF Damp:  0
+	Delay1 - Output:   6   Pan:   0%   Delay: 332ms   Regen:  -6
+	Delay2 - Output:   6   Pan: 100%   Delay: 664ms   Regen:  -6
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:  15%   Decay: 82   HF Damp:  0
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: LEFT OUT LVL
+		UpperLim: 49   LowerLim: -INF
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

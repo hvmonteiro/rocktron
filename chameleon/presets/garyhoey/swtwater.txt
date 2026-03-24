@@ -1,0 +1,33 @@
+Preset Name:  SWEET WATER 
+ *Configuration*  High-Gain, Chorus, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	  3	Left Level:	  3
+	Mix/Dir:	 30%	Pan (0<>100):	 65%
+	Delay Level:	-58	Reverb Level:	 -4
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	22	Variac Adjust:	 0
+	Post Levels:
+	  Bass:  10  Mid:   1  Treb:  11  Pres:   3
+ *Hush Section*  HUSH  IN  Threshhold: -69
+ *Speaker Sim*  BOTH	 Speaker Type: 12"
+	Mic Placement:  -6
+	    Reactance:   0
+ *Pre EQ Section*
+	Low Frequency - Level:  -14   Freq:   92 HZ
+	Mid Frequency - Level:   12   Freq: 1414 HZ   Bandwidth: 1.2 OCT
+ *Post EQ Section*
+	Bass     - Freq:  105 HZ   Bandwidth:  .6 OCT
+	Midrange - Freq:  479 HZ   Bandwidth:  .6 OCT
+	Treble   - Freq: 4000 HZ   Bandwidth:  .4 OCT
+	Presence - Freq: 8000 HZ   Bandwidth: 1.3 OCT
+ *Chorus Section*  OUT
+ *Delay Section*   MUTED
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:  22%   Decay: 53   HF Damp: 42
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: LEFT OUT LVL
+		UpperLim: 49   LowerLim: -INF
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

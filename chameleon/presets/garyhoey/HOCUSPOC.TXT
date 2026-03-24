@@ -1,0 +1,35 @@
+Preset Name:  HOCUS[POCUS 
+ *Configuration*  High-Gain, Flanger, Delay, Reverb
+ *Mixer Section*  Master Volume: 100
+	Right Level:	 -6	Left Level:	 -6
+	Mix/Dir:	100%	Pan (0<>100):	 50%
+	Delay Level:	 -8	Reverb Level:	 -8
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	58	Variac Adjust:	 0
+	Post Levels:
+	  Bass:   7  Mid:   4  Treb:   7  Pres:   8
+ *Hush Section*  HUSH  IN  Threshhold: -46
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    0   Freq:  297 HZ
+	Mid Frequency - Level:    6   Freq:  917 HZ   Bandwidth: 1.2 OCT
+ *Post EQ Section*
+	Bass     - Freq:  101 HZ   Bandwidth:  .9 OCT
+	Midrange - Freq:  677 HZ   Bandwidth:  .7 OCT
+	Treble   - Freq: 4000 HZ   Bandwidth:  .8 OCT
+	Presence - Freq: 4967 HZ   Bandwidth:  .8 OCT
+ *Flanger Section*   IN
+	Flanger1 - Level:  -3   Pan: 0%
+	          Depth:  55   Rate:   9
+	Flanger2 - Level:   6   Pan: 100%
+	          Depth:  50   Rate:  11
+	Regeneration:    3
+ *Delay Section*   MUTED
+ *Reverb Section*   MUTED
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: LEFT OUT LVL
+		UpperLim: 49   LowerLim: -INF
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

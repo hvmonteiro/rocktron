@@ -1,0 +1,33 @@
+Preset Name:  HOLLOW JAZZ;
+ *Configuration*  Low-Gain, Pitch Shift, Delay, Reverb
+ *Mixer Section*  Master Volume: 100
+	Right Level:	  2	Left Level:	  2
+	Mix/Dir:	 61%	Pan (0<>100):	 50%
+	Delay Level:	 -8	Reverb Level:	 -9
+ *Gain Section*  (LOW-GAIN)
+	Gain:	12	Distortion Type: Triode B
+	Post Levels:
+	  Bass:  11  Mid:  11  Treb:  -5  Pres:  -5
+ *Hush Section*  HUSH OUT  Threshhold: -90
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    6   Freq:  110 HZ
+	Mid Frequency - Level:   -2   Freq:  805 HZ   Bandwidth: 1.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:  131 HZ   Bandwidth: 1.0 OCT
+	Midrange - Freq: 1000 HZ   Bandwidth: 1.2 OCT
+	Treble   - Freq: 3668 HZ   Bandwidth: 2.0 OCT
+	Presence - Freq: 7661 HZ   Bandwidth: 1.0 OCT
+ *Compressor*   IN
+	Threshold:  -10   Attack:   1ms   Release:  1.0s
+ *Pitch Shifter*  OUT
+ *Delay Section*   MUTED
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:   0%   Decay: 66   HF Damp:  4
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: COMP ATTACK
+		UpperLim:  2ms   LowerLim:  1ms
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

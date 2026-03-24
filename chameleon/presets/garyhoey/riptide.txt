@@ -1,0 +1,33 @@
+Preset Name:  RIPTIDELICKS
+ *Configuration*  High-Gain, Chorus, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	 -4	Left Level:	 -4
+	Mix/Dir:	  0%	Pan (0<>100):	 50%
+	Delay Level:	  1	Reverb Level:	-39
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	57	Variac Adjust:	 0
+	Post Levels:
+	  Bass:   8  Mid:   5  Treb:   7  Pres:   7
+ *Hush Section*  HUSH  IN  Threshhold: -78
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    2   Freq:  131 HZ
+	Mid Frequency - Level:   12   Freq: 1139 HZ   Bandwidth: 1.2 OCT
+ *Post EQ Section*
+	Bass     - Freq:  120 HZ   Bandwidth:  .7 OCT
+	Midrange - Freq:  917 HZ   Bandwidth: 1.0 OCT
+	Treble   - Freq: 4000 HZ   Bandwidth:  .8 OCT
+	Presence - Freq: 8000 HZ   Bandwidth:  .9 OCT
+ *Chorus Section*  OUT
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix: 100%   Src2: DIRECT   HF Damp: 26
+	Delay1 - Output:  -9   Pan:   0%   Delay: 440ms   Regen:  -7
+	Delay2 - Output:  -9   Pan: 100%   Delay: 428ms   Regen: -INF
+ *Reverb Section*   MUTED
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: LEFT OUT LVL
+		UpperLim: 49   LowerLim: -INF
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

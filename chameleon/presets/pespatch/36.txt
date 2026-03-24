@@ -1,0 +1,31 @@
+Preset Name:  PHY;PHASAN  
+ *Configuration*  Phaser, High-Gain, Delay, Reverb
+ *Mixer Section*  Master Volume: 126
+	Right Level:	-14	Left Level:	-14
+	Mix/Dir:	 10%	Pan (0<>100):	 50%
+	Delay Level:	-12	Reverb Level:	 -8
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	45	Variac Adjust:	 0
+	Post Levels:
+	  Bass:   9  Mid:  -3  Treb:   2  Pres:   9
+ *Hush Section*  HUSH  IN  Threshhold: -46
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:   -6   Freq:  297 HZ
+	Mid Frequency - Level:    6   Freq:  805 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:   88 HZ   Bandwidth: 1.0 OCT
+	Midrange - Freq:  677 HZ   Bandwidth:  .6 OCT
+	Treble   - Freq: 2378 HZ   Bandwidth: 1.3 OCT
+	Presence - Freq: 8000 HZ   Bandwidth: 1.0 OCT
+ *Phaser Section*   IN
+	Depth:  75   Rate:  50
+	Resonance:   8   Stages: 6
+ *Delay Section*   MUTED
+ *Reverb Section*   MUTED
+ *Controller Assignments*
+	NONE
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

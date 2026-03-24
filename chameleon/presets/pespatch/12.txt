@@ -1,0 +1,38 @@
+Preset Name:  SCHENKER;;; 
+ *Configuration*  High-Gain, Chorus, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	-14	Left Level:	-14
+	Mix/Dir:	 10%	Pan (0<>100):	 50%
+	Delay Level:	-24	Reverb Level:	 -9
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	70	Variac Adjust:	-1
+	Post Levels:
+	  Bass:   8  Mid:  -4  Treb:  -1  Pres:   8
+ *Hush Section*  HUSH  IN  Threshhold: -50
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:   -1   Freq:  297 HZ
+	Mid Frequency - Level:    2   Freq: 1000 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:   88 HZ   Bandwidth: 1.0 OCT
+	Midrange - Freq:  677 HZ   Bandwidth:  .6 OCT
+	Treble   - Freq: 2378 HZ   Bandwidth: 1.3 OCT
+	Presence - Freq: 7025 HZ   Bandwidth: 1.0 OCT
+ *Chorus Section*   IN
+	Chorus1 - Level:   6   Pan: 8%
+	          Depth:  26   Rate:  19   Delay: 33ms
+	Chorus2 - Level:   6   Pan: 13%
+	          Depth:  11   Rate:  27   Delay: 39ms
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix: 100%   Src2: DIRECT   HF Damp: 26
+	Delay1 - Output:   6   Pan:   0%   Delay: 280ms   Regen: -INF
+	Delay2 - Output:   4   Pan: 100%   Delay: 332ms   Regen: -INF
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:   0%   Decay: 49   HF Damp: 40
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: LEFT OUT LVL
+		UpperLim: 49   LowerLim: -INF
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

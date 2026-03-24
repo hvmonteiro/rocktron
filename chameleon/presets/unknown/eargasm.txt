@@ -1,0 +1,45 @@
+Preset Name:   EARGASM    
+ *Configuration*  High-Gain, Pitch Shift, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	  0	Left Level:	  0
+	Mix/Dir:	 50%	Pan (0<>100):	  0%
+	Delay Level:	-INF	Reverb Level:	  0
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	55	Variac Adjust:	 0
+	Post Levels:
+	  Bass:  10  Mid:  -6  Treb:   9  Pres:   0
+ *Hush Section*  HUSH  IN  Threshhold: -50
+ *Speaker Sim*  BOTH	 Speaker Type: 12"
+	Mic Placement:  15
+	    Reactance:   5
+ *Pre EQ Section*
+	Low Frequency - Level:  -15   Freq:   63 HZ
+	Mid Frequency - Level:   12   Freq: 1000 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:  120 HZ   Bandwidth:  .7 OCT
+	Midrange - Freq:  459 HZ   Bandwidth:  .8 OCT
+	Treble   - Freq: 5907 HZ   Bandwidth: 1.2 OCT
+	Presence - Freq: 8000 HZ   Bandwidth: 1.1 OCT
+ *Pitch Shifter*   IN
+	Level:   6   Pan: 100   Speed: Fast
+	Pitch:   -20   Fine:   5 cents
+ *Delay Section*   MUTED
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:  50%   Decay: 35   HF Damp: 48
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: DIR/EFF MIX
+		UpperLim: 100%   LowerLim:  0%
+	Controller:  11(EXPRESSION)   Parameter: PITCH SHIFT
+		UpperLim: IN   LowerLim: OUT
+	Controller:  12(EFFCTL1)   Parameter: DELAY
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  13(EFFCTL2)   Parameter: REVERB INPUT
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  14(---)   Parameter: MUTE
+		UpperLim: ON   LowerLim: OFF
+	Controller:  17(GPCTL2)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

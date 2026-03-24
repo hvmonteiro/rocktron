@@ -1,0 +1,36 @@
+Preset Name:  LITE;CRUNCH.
+ *Configuration*  Low-Gain, Flanger, Delay, Reverb
+ *Mixer Section*  Master Volume: 100
+	Right Level:	 -5	Left Level:	 -5
+	Mix/Dir:	  5%	Pan (0<>100):	 50%
+	Delay Level:	-INF	Reverb Level:	-18
+ *Gain Section*  (LOW-GAIN)
+	Gain:	40	Distortion Type: Triode A
+	Post Levels:
+	  Bass:  10  Mid:  -1  Treb:   5  Pres:   3
+ *Hush Section*  HUSH  IN  Threshhold: -60
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    5   Freq:   81 HZ
+	Mid Frequency - Level:   10   Freq: 2000 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:   63 HZ   Bandwidth: 2.0 OCT
+	Midrange - Freq:  707 HZ   Bandwidth:  .9 OCT
+	Treble   - Freq: 3513 HZ   Bandwidth:  .2 OCT
+	Presence - Freq: 6727 HZ   Bandwidth: 2.0 OCT
+ *Compressor*  OUT
+	Threshold:  -24   Attack:   1ms   Release:  .05s
+ *Flanger Section*  OUT
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix:  50%   Src2: VOICE2   HF Damp: 23
+	Delay1 - Output:   6   Pan:   0%   Delay: 180ms   Regen: -INF
+	Delay2 - Output:   6   Pan: 100%   Delay: 180ms   Regen: -INF
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:  50%   Decay: 50   HF Damp: 10
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: LEFT OUT LVL
+		UpperLim: 49   LowerLim: -INF
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

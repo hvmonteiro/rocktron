@@ -1,0 +1,43 @@
+Preset Name:   METALLICA  
+ *Configuration*  Wah, High-Gain, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	  0	Left Level:	  0
+	Mix/Dir:	  0%	Pan (0<>100):	 50%
+	Delay Level:	-23	Reverb Level:	-14
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	78	Variac Adjust:	 0
+	Post Levels:
+	  Bass:  10  Mid: -15  Treb:  -3  Pres:  12
+ *Hush Section*  HUSH  IN  Threshhold: -35
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    0   Freq:  297 HZ
+	Mid Frequency - Level:    6   Freq: 1000 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:   88 HZ   Bandwidth: 1.0 OCT
+	Midrange - Freq:  677 HZ   Bandwidth:  .6 OCT
+	Treble   - Freq: 1000 HZ   Bandwidth:  .8 OCT
+	Presence - Freq: 8000 HZ   Bandwidth: 1.0 OCT
+ *Wah Section*  OUT
+ *Delay Section*   MUTED
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:   0%   Decay: 42   HF Damp: 67
+ *Controller Assignments*
+	Controller:   1(MODULATION)   Parameter: WAH FREQ
+		UpperLim: 2600 HZ   LowerLim:  310 HZ
+	Controller:   2(BREATH)   Parameter: WAH-WAH
+		UpperLim: IN   LowerLim: OUT
+	Controller:  12(EFFCTL1)   Parameter: DELAY
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  13(EFFCTL2)   Parameter: REVERB INPUT
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  14(---)   Parameter: MUTE
+		UpperLim: ON   LowerLim: OFF
+	Controller:  17(GPCTL2)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+	Controller:  16(GPCTL1)   Parameter: WAH FREQ
+		UpperLim: 2600 HZ   LowerLim:  310 HZ
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

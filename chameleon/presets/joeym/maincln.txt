@@ -1,0 +1,32 @@
+Preset Name:  MAIN CLEAN. 
+ *Configuration*  Low-Gain, Chorus, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	 -4	Left Level:	 -4
+	Mix/Dir:	 36%	Pan (0<>100):	 50%
+	Delay Level:	-12	Reverb Level:	 -4
+ *Gain Section*  (LOW-GAIN)
+	Gain:	15	Distortion Type: Triode A
+	Post Levels:
+	  Bass:   9  Mid:   9  Treb:   9  Pres:  14
+ *Hush Section*  HUSH  IN  Threshhold: -46
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    6   Freq:   96 HZ
+	Mid Frequency - Level:    4   Freq: 3221 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:  105 HZ   Bandwidth: 2.0 OCT
+	Midrange - Freq:  648 HZ   Bandwidth: 2.0 OCT
+	Treble   - Freq: 3513 HZ   Bandwidth: 1.3 OCT
+	Presence - Freq: 7025 HZ   Bandwidth: 1.0 OCT
+ *Compressor*  OUT
+	Threshold:  -15   Attack:   1ms   Release:  0.1s
+ *Chorus Section*  OUT
+ *Delay Section*   MUTED
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:   0%   Decay: 60   HF Damp: 20
+ *Controller Assignments*
+	NONE
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

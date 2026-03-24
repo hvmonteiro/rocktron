@@ -1,0 +1,17 @@
+Rocktron Voodu Valve presets from Rick Lazear
+
+
+# -Presetname		Comments	
+
+01-Clean 		As on beginning of "Pull Me Under"
+02-Crunch		As on main rhythm of "Metropolis"
+03-Lead1		As on opening lead for "Another Hand-The Killing Hand"
+04-Lead2		As on main lead for "Bombay Vindaloo"
+
+
+These presets were submitted by Rick Lazear (See back of the "Rocktron Brochure", 2nd name in users list) They are all inspired by John Petrucci of "Dream Theater". They were created trying to emulate Petrucci's guitar sounds on the Dream Theater CD "Live At The Marquee". They're as close as I can get. If anyone has any Dream Theater inspired presets, Please SUBMIT THEM!!!
+
+Equipment used to create these presets:
+Rocktron "Voodu Valve" Preamp into a Rocktron "Velocity 120" Power Amp pushing one Rocktron "Velocity S112" Speaker Enclosure and one Carvin 4x12 Cabinet.
+
+Contact me at: ricklazear@juno.com

@@ -1,0 +1,47 @@
+Preset Name:  PAUL/PHASE  
+ *Configuration*  Phaser, Low-Gain, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	  3	Left Level:	  3
+	Mix/Dir:	 59%	Pan (0<>100):	 50%
+	Delay Level:	  0	Reverb Level:	-10
+ *Gain Section*  (LOW-GAIN)
+	Gain:	12	Distortion Type: Triode B
+	Post Levels:
+	  Bass:   5  Mid:  -6  Treb:   9  Pres:  13
+ *Hush Section*  HUSH  IN  Threshhold: -41
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    6   Freq:   96 HZ
+	Mid Frequency - Level:    3   Freq: 4000 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:  105 HZ   Bandwidth: 2.0 OCT
+	Midrange - Freq:  805 HZ   Bandwidth: 1.0 OCT
+	Treble   - Freq: 4177 HZ   Bandwidth: 1.8 OCT
+	Presence - Freq: 6442 HZ   Bandwidth: 1.0 OCT
+ *Compressor*  OUT
+	Threshold:    0   Attack:   1ms   Release:  2.0s
+ *Phaser Section*   IN
+	Depth: 100   Rate:  12
+	Resonance:   0   Stages: 4
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix:  50%   Src2: DIRECT   HF Damp: 35
+	Delay1 - Output:   6   Pan:  50%   Delay:  36ms   Regen: -INF
+	Delay2 - Output: -INF   Pan: 100%   Delay: 900ms   Regen: -INF
+ *Reverb Section*   MUTED
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: DIR/EFF MIX
+		UpperLim: 100%   LowerLim:  0%
+	Controller:  11(EXPRESSION)   Parameter: PHASER
+		UpperLim: IN   LowerLim: OUT
+	Controller:  12(EFFCTL1)   Parameter: DELAY
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  13(EFFCTL2)   Parameter: REVERB INPUT
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  14(---)   Parameter: MUTE
+		UpperLim: ON   LowerLim: OFF
+	Controller:  17(GPCTL2)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

@@ -1,0 +1,35 @@
+Preset Name:  ERRU[GAL?[[[
+ *Configuration*  High-Gain, Pitch Shift, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	-14	Left Level:	-14
+	Mix/Dir:	 50%	Pan (0<>100):	 50%
+	Delay Level:	  1	Reverb Level:	  0
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	69	Variac Adjust:	-6
+	Post Levels:
+	  Bass:  15  Mid:  -3  Treb:   5  Pres:   8
+ *Hush Section*  HUSH  IN  Threshhold: -43
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:   -4   Freq:   85 HZ
+	Mid Frequency - Level:    7   Freq:  648 HZ   Bandwidth:  .5 OCT
+ *Post EQ Section*
+	Bass     - Freq:  101 HZ   Bandwidth:  .8 OCT
+	Midrange - Freq:  500 HZ   Bandwidth:  .4 OCT
+	Treble   - Freq: 4000 HZ   Bandwidth: 2.0 OCT
+	Presence - Freq: 8000 HZ   Bandwidth: 1.3 OCT
+ *Pitch Shifter*   IN
+	Level:   0   Pan:   0   Speed: Medium
+	Pitch:    40   Fine: -20 cents
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix:   0%   Src2: VOICE2   HF Damp:  0
+	Delay1 - Output:   6   Pan: 100%   Delay: 600ms   Regen:  -1
+	Delay2 - Output:  -9   Pan:  90%   Delay: 100ms   Regen: -INF
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:  40%   Decay: 60   HF Damp: 83
+ *Controller Assignments*
+	NONE
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

@@ -1,0 +1,41 @@
+Preset Name:  ROSS RYTHEM 
+ *Configuration*  High-Gain, Chorus, Delay, Reverb
+ *Mixer Section*  Master Volume: 124
+	Right Level:	 -5	Left Level:	 -5
+	Mix/Dir:	  0%	Pan (0<>100):	 50%
+	Delay Level:	  3	Reverb Level:	 -9
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	74	Variac Adjust:	 0
+	Post Levels:
+	  Bass:   9  Mid:  -6  Treb:   3  Pres:   7
+ *Hush Section*  HUSH  IN  Threshhold: -46
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    2   Freq:  354 HZ
+	Mid Frequency - Level:   12   Freq:  805 HZ   Bandwidth: 1.2 OCT
+ *Post EQ Section*
+	Bass     - Freq:  120 HZ   Bandwidth:  .7 OCT
+	Midrange - Freq:  878 HZ   Bandwidth: 1.0 OCT
+	Treble   - Freq: 4000 HZ   Bandwidth:  .8 OCT
+	Presence - Freq: 8000 HZ   Bandwidth:  .9 OCT
+ *Chorus Section*  OUT
+ *Delay Section*   MUTED
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:   0%   Decay: 66   HF Damp: 35
+ *Controller Assignments*
+	Controller:   1(MODULATION)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+	Controller:   1(MODULATION)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+	Controller:  12(EFFCTL1)   Parameter: DELAY
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  13(EFFCTL2)   Parameter: REVERB INPUT
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  14(---)   Parameter: MUTE
+		UpperLim: ON   LowerLim: OFF
+	Controller:  17(GPCTL2)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

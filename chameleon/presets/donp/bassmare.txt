@@ -1,0 +1,48 @@
+Preset Name:  BASS-MARES  
+ *Configuration*  High-Gain, Pitch Shift, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	 -4	Left Level:	 -4
+	Mix/Dir:	 52%	Pan (0<>100):	 50%
+	Delay Level:	 -4	Reverb Level:	 -4
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	58	Variac Adjust:	 0
+	Post Levels:
+	  Bass:  10  Mid:   3  Treb:   8  Pres:  10
+ *Hush Section*  HUSH  IN  Threshhold: -70
+ *Speaker Sim*  BOTH	 Speaker Type: 15"
+	Mic Placement:   0
+	    Reactance:   5
+ *Pre EQ Section*
+	Low Frequency - Level:   -1   Freq:   92 HZ
+	Mid Frequency - Level:   12   Freq: 1414 HZ   Bandwidth: 1.2 OCT
+ *Post EQ Section*
+	Bass     - Freq:   68 HZ   Bandwidth: 1.1 OCT
+	Midrange - Freq: 1139 HZ   Bandwidth:  .2 OCT
+	Treble   - Freq: 4000 HZ   Bandwidth:  .8 OCT
+	Presence - Freq: 8000 HZ   Bandwidth:  .2 OCT
+ *Pitch Shifter*   IN
+	Level:   0   Pan:  50   Speed: Slow
+	Pitch: -1200   Fine:   0 cents
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix:  50%   Src2: DIRECT   HF Damp:  0
+	Delay1 - Output:  -4   Pan:  95%   Delay: 252ms   Regen:  -6
+	Delay2 - Output:  -4   Pan:   5%   Delay: 500ms   Regen:  -6
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:  26%   Decay: 81   HF Damp: 63
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: DIR/EFF MIX
+		UpperLim: 100%   LowerLim:  0%
+	Controller:  11(EXPRESSION)   Parameter: PSHFT PITCH
+		UpperLim:  1200   LowerLim: -2400
+	Controller:  12(EFFCTL1)   Parameter: DELAY
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  13(EFFCTL2)   Parameter: REVERB INPUT
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  14(---)   Parameter: MUTE
+		UpperLim: ON   LowerLim: OFF
+	Controller:  17(GPCTL2)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

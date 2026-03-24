@@ -1,0 +1,46 @@
+Preset Name:  [ERUPTION[  
+ *Configuration*  Phaser, High-Gain, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	 -2	Left Level:	 -2
+	Mix/Dir:	  0%	Pan (0<>100):	 50%
+	Delay Level:	  4	Reverb Level:	-10
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	78	Variac Adjust:	 0
+	Post Levels:
+	  Bass:  11  Mid:  -6  Treb:   6  Pres:   8
+ *Hush Section*  HUSH  IN  Threshhold: -39
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:  -15   Freq:   63 HZ
+	Mid Frequency - Level:   12   Freq: 1000 HZ   Bandwidth: 1.4 OCT
+ *Post EQ Section*
+	Bass     - Freq:  120 HZ   Bandwidth:  .4 OCT
+	Midrange - Freq:  648 HZ   Bandwidth:  .5 OCT
+	Treble   - Freq: 4000 HZ   Bandwidth:  .2 OCT
+	Presence - Freq: 7025 HZ   Bandwidth:  .2 OCT
+ *Phaser Section*   IN
+	Depth:  60   Rate:  26
+	Resonance:   0   Stages: 4
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix:  52%   Src2: DIRECT   HF Damp: 26
+	Delay1 - Output:  -8   Pan:   0%   Delay: 380ms   Regen: -16
+	Delay2 - Output:  -8   Pan: 100%   Delay: 380ms   Regen: -16
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:   0%   Decay: 64   HF Damp: 35
+ *Controller Assignments*
+	Controller: 122(LCL ADJ)   Parameter: DIR/EFF MIX
+		UpperLim: 100%   LowerLim:  0%
+	Controller:  11(EXPRESSION)   Parameter: PHASER
+		UpperLim: IN   LowerLim: OUT
+	Controller:  12(EFFCTL1)   Parameter: DELAY
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  13(EFFCTL2)   Parameter: REVERB INPUT
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  14(---)   Parameter: MUTE
+		UpperLim: ON   LowerLim: OFF
+	Controller:  17(GPCTL2)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

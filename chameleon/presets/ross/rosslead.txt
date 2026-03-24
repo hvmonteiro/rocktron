@@ -1,0 +1,44 @@
+Preset Name:  ROSS ;LEAD  
+ *Configuration*  High-Gain, Chorus, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	 -3	Left Level:	 -3
+	Mix/Dir:	  0%	Pan (0<>100):	 50%
+	Delay Level:	 -5	Reverb Level:	 -8
+ *Gain Section*  (HIGH-GAIN)
+	Gain:	74	Variac Adjust:	 0
+	Post Levels:
+	  Bass:   7  Mid:  -6  Treb:   3  Pres:   6
+ *Hush Section*  HUSH  IN  Threshhold: -46
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    2   Freq:  354 HZ
+	Mid Frequency - Level:   12   Freq: 1139 HZ   Bandwidth: 1.2 OCT
+ *Post EQ Section*
+	Bass     - Freq:  120 HZ   Bandwidth:  .7 OCT
+	Midrange - Freq:  878 HZ   Bandwidth: 1.0 OCT
+	Treble   - Freq: 4000 HZ   Bandwidth:  .8 OCT
+	Presence - Freq: 8000 HZ   Bandwidth:  .9 OCT
+ *Chorus Section*  OUT
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix:  50%   Src2: DIRECT   HF Damp: 73
+	Delay1 - Output:   0   Pan:  50%   Delay: 776ms   Regen: -INF
+	Delay2 - Output:   0   Pan:  50%   Delay: 388ms   Regen: -INF
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:   0%   Decay: 64   HF Damp: 35
+ *Controller Assignments*
+	Controller:   1(MODULATION)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+	Controller:   2(BREATH)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+	Controller:  12(EFFCTL1)   Parameter: DELAY
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  13(EFFCTL2)   Parameter: REVERB INPUT
+		UpperLim: ACTIVE   LowerLim: MUTED
+	Controller:  14(---)   Parameter: MUTE
+		UpperLim: ON   LowerLim: OFF
+	Controller:  17(GPCTL2)   Parameter: VOLUME
+		UpperLim: 127   LowerLim:   0
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+

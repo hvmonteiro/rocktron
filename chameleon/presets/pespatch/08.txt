@@ -1,0 +1,39 @@
+Preset Name:  ABYSSANOVA. 
+ *Configuration*  Low-Gain, Chorus, Delay, Reverb
+ *Mixer Section*  Master Volume: 127
+	Right Level:	 -4	Left Level:	 -4
+	Mix/Dir:	 36%	Pan (0<>100):	 50%
+	Delay Level:	-12	Reverb Level:	 -4
+ *Gain Section*  (LOW-GAIN)
+	Gain:	10	Distortion Type: Triode A
+	Post Levels:
+	  Bass:   9  Mid:   3  Treb:   9  Pres:   8
+ *Hush Section*  HUSH  IN  Threshhold: -46
+ *Speaker Sim*  OFF
+ *Pre EQ Section*
+	Low Frequency - Level:    4   Freq:  297 HZ
+	Mid Frequency - Level:    5   Freq: 1000 HZ   Bandwidth: 2.0 OCT
+ *Post EQ Section*
+	Bass     - Freq:   88 HZ   Bandwidth: 1.0 OCT
+	Midrange - Freq:  677 HZ   Bandwidth:  .6 OCT
+	Treble   - Freq: 2378 HZ   Bandwidth: 1.3 OCT
+	Presence - Freq: 8000 HZ   Bandwidth: 1.0 OCT
+ *Compressor*   IN
+	Threshold:  -15   Attack:   1ms   Release:  0.1s
+ *Chorus Section*   IN
+	Chorus1 - Level:  -9   Pan: 0%
+	          Depth:  50   Rate:  47   Delay: 10ms
+	Chorus2 - Level:  -9   Pan: 100%
+	          Depth:  50   Rate:  10   Delay:  2ms
+ *Delay Section*   ACTIVE
+	Mute Type:  PRE   Src Mix: 100%   Src2: DIRECT   HF Damp: 26
+	Delay1 - Output:   6   Pan:   0%   Delay: 600ms   Regen:  -4
+	Delay2 - Output:   4   Pan: 100%   Delay: 900ms   Regen: -14
+ *Reverb Section*   ACTIVE
+	Mix DIR/DLY:   0%   Decay: 60   HF Damp: 20
+ *Controller Assignments*
+	NONE
+ *Tap Delays*
+	Tap Delay 1 Multiplier: QUARTER
+	Tap Delay 2 Multiplier: QUARTER
+
